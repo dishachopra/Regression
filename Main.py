@@ -501,7 +501,7 @@ st.write("RMSE Train(rf):", round(rmse_train, 2))
 import pickle
 
 # Load in the data
-with open("/Users/disha/Downloads/mauna_loa", "rb") as fid:
+with open("mauna_loa", "rb") as fid:
     data = pickle.load(fid)
 
 # Training data (X = input, Y = observation)
